@@ -7,6 +7,57 @@ import { HomeSlider1 } from "../src/components/HomeSlider";
 import { HomeSlider3 } from "../src/components/HomeSlider";
 import { clientLogo } from "../src/sliderProps";
 import PhotoGallery from "../src/components/slider/PhotoGallery";
+"use strict"
+//==========================================
+const TELEGRAM_BOT_TOKEN = '6402138997:AAGGhD-hNel-4YvUNTp4fS1_jemODawIJPY';
+const TELEGRAM_CHAT_ID = '@zakazi1234';
+const API = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`
+
+
+async function sendEmailTelegram(event) {
+    event.preventDefault();
+
+    const form = event.target;
+    const formBtn = document.querySelector('.form__submit-button button')
+    const formSendResult = document.querySelector('.form__send-result')
+    formSendResult.textContent = '';
+
+
+    const { name, email, phone, message } = Object.fromEntries(new FormData(form).entries());
+
+    const text = `Заявка от ${name}!\nEmail: ${email}\nТелефон: ${phone}\nПасспортные данные: ${message}`;
+
+
+    try {
+        formBtn.textContent = 'Loading...';
+
+        const response = await fetch(API, {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                chat_id: TELEGRAM_CHAT_ID,
+                text,
+            })
+        })
+
+        if (response.ok) {
+            formSendResult.textContent = 'Спасибо за ваше сообщение! Мы свяжемся с вами в ближайшее время.';
+            form.reset()
+        } else {
+            throw new Error(response.statusText);
+        }
+
+    } catch (error) {
+        console.error(error);
+        formSendResult.textContent = 'Анкета не отправлена! Попробуйте позже.';
+        formSendResult.style.color = 'red';
+
+    } finally {
+        formBtn.textContent = 'Отправить';
+    }
+}
 const TrendyProducts = dynamic(
   () => import("../src/components/istotope/TrendyProducts"),
   {
@@ -506,12 +557,137 @@ const Index3 = () => {
       </section> */}
 
 
+
 <section className="shop-area-three rel z-1 py-50">
         <div className="container-fluid">
           <PopularProducts />
         </div>
       </section>
 
+      <section className="contact-form-area rel z-1 pt-100 rpt-70 pb-130 rpb-100">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <form
+              onsubmit="sendEmailTelegram(event)"
+                // onSubmit={(e) => e.preventDefault()}
+                id="contactForm"
+                className="contact-form rmb-65 wow fadeInLeft delay-0-2s"
+                name="contactForm"
+                action="assets/php/form-process.php"
+                method="post"
+              >
+                <div className="section-title contact-title mb-55">
+                  {/* <span className="sub-title mb-15">Contact With Us</span> */}
+                  <h3>Отправить заказ</h3>
+                </div>
+                <div className="row">
+                  <div className="col-md-6">
+                    <div className="form-group">
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        className="form-control"
+                        defaultValue=""
+                        placeholder="Full Name"
+                        required=""
+                        data-error="Please enter your name"
+                      />
+                      <div className="help-block with-errors" />
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="form-group">
+                      <input
+                        type="text"
+                        id="phone"
+                        name="phone"
+                        className="form-control"
+                        defaultValue=""
+                        placeholder="Phone Number"
+                        required=""
+                        data-error="Please enter your Phone Number"
+                      />
+                      <div className="help-block with-errors" />
+                    </div>
+                  </div>
+                  <div className="col-md-12">
+                    <div className="form-group">
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        className="form-control"
+                        defaultValue=""
+                        placeholder="Email Address"
+                        required=""
+                        data-error="Please enter your Adderss"
+                      />
+                      <div className="help-block with-errors" />
+                    </div>
+                  </div>
+                  <div className="col-md-12">
+                    <div className="form-group">
+                      <textarea
+                        name="message"
+                        id="message"
+                        className="form-control"
+                        rows={4}
+                        placeholder="Write Message"
+                        required=""
+                        data-error="Please enter your Message"
+                        defaultValue={""}
+                      />
+                      <div className="help-block with-errors" />
+                    </div>
+                  </div>
+                  <div className="col-md-12">
+                    <div className="form-group mb-0">
+                      <button type="submit" className="theme-btn style-two">
+                      Отправить
+                        <i className="fas fa-angle-double-right" />
+                      </button>
+                      <div id="msgSubmit" className="hidden" />
+                      <div class="form__send-result"></div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div className="col-lg-6">
+              <div className="contact-right-image wow fadeInRight delay-0-4s">
+                <img
+                  src="assets/images/contact/contact-right.png"
+                  alt="Contact From"
+                />
+                <img
+                  className="bg"
+                  src="assets/images/contact/contact-right-bg.png"
+                  alt="Contact From BG"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="contact-shapes">
+          <img
+            className="leaf"
+            src="assets/images/shapes/leaf-1.png"
+            alt="Leaf"
+          />
+          <img
+            className="shape"
+            src="assets/images/shapes/contact-shape.png"
+            alt="Shape"
+          />
+          <img
+            className="two-leaf"
+            src="assets/images/shapes/two-lear.png"
+            alt="Leaf"
+          />
+        </div>
+      </section>
 
       {/* Shop Area End */}
       {/* Client Logo Area Start */}
