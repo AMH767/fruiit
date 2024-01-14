@@ -184,7 +184,7 @@ const Index3 = () => {
                 <div className="product-category-item wow fadeInUp delay-0-2s">
                   <div className="image">
                     <img
-                      src="https://raw.githubusercontent.com/Alen44141/images/main/PhotoOtdelRemoveBack/ovochi_i_frukti.png"
+                      src="https://raw.githubusercontent.com/AMH767/image/main/rem2.png"
                       alt="Product"
                     />
                   </div>

@@ -14,7 +14,7 @@ const ProductsSpecii = dynamic(
 export const ShopSpecii = () => {
   return (
     <Layout>
-      <PageBanner pageName={"Сделать заказ"} />
+      <PageBanner pageName={"Орешки"} />
       <section className="shop-area-three rel z-1 py-50">
         <div className="container-fluid">
           <ProductsSpecii />
