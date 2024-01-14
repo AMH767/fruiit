@@ -165,7 +165,7 @@ const Index3 = () => {
         <div className="container-fluid">
           <div className="product-category-inner">
             <div className="row justify-content-center">
-              <div className="col-xl-3 col-lg-4 col-sm-6">
+              {/* <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-category-item wow fadeInUp delay-0-2s">
                   <div className="image">
                     <img
@@ -176,6 +176,21 @@ const Index3 = () => {
                   <div className="content">
                     <h4>
                       <Link href="/product-details">Овощи и фрукты</Link>
+                    </h4>
+                  </div>
+                </div>
+              </div> */}
+                            <div className="col-xl-3 col-lg-4 col-sm-6">
+                <div className="product-category-item wow fadeInUp delay-0-2s">
+                  <div className="image">
+                    <img
+                      src="https://raw.githubusercontent.com/Alen44141/images/main/PhotoOtdelRemoveBack/ovochi_i_frukti.png"
+                      alt="Product"
+                    />
+                  </div>
+                  <div className="content">
+                    <h4>
+                      <Link href="/product-details">Отдел Соков</Link>
                     </h4>
                   </div>
                 </div>
