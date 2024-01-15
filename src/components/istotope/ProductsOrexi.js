@@ -1,7 +1,7 @@
 import Isotope from "isotope-layout";
 import Link from "next/link";
 import { Fragment, useEffect, useRef, useState } from "react";
-const ProductsSpecii = () => {
+const ProductsSoki = () => {
   // Isotope
   const isotope = useRef();
   const [filterKey, setFilterKey] = useState("*");
@@ -158,7 +158,7 @@ const ProductsSpecii = () => {
           <div className="product-item wow fadeInUp delay-0-5s">
             {/* <span className="offer">20 Off</span> */}
             <div className="image">
-              <img src="https://raw.githubusercontent.com/Alen44141/images/main/Specii/chesnok.png" alt="Product" />
+              <img src="https://raw.githubusercontent.com/AMH767/image/main/oreshki/tikvochish.png" alt="Product" />
             </div>
             <div className="content">
               {/* <div className="ratting">
@@ -169,19 +169,19 @@ const ProductsSpecii = () => {
                 <i className="fas fa-star" />
               </div> */}
               <h5>
-                <Link href="/product-details">Чеснок молотый</Link>
+                <Link href="/product-details">Тыквенные семечки</Link>
               </h5>
-              <span className="price">
-                {/* <del>55</del> */}
+              {/* <span className="price">
+                <del>55</del>
                 <span>45 / 100гр</span>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
         <div className="col-xl-3 col-lg-4 col-sm-6 item seafish vegetables">
           <div className="product-item wow fadeInUp delay-0-6s">
             <div className="image">
-              <img src="https://raw.githubusercontent.com/Alen44141/images/main/Specii/muskatni_orex.png" alt="Product" />
+              <img src="https://raw.githubusercontent.com/AMH767/image/main/oreshki/enhanc/pekinski.png" alt="Product" />
             </div>
             <div className="content">
               {/* <div className="ratting">
@@ -192,11 +192,11 @@ const ProductsSpecii = () => {
                 <i className="fas fa-star" />
               </div> */}
               <h5>
-                <Link href="/product-details">Мускатный орех</Link>
+                <Link href="/product-details">Пекинский орех</Link>
               </h5>
-              <span className="price">
+              {/* <span className="price">
                 <span>500 / кг</span>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
@@ -204,7 +204,7 @@ const ProductsSpecii = () => {
           <div className="product-item wow fadeInUp delay-0-7s">
             {/* <span className="offer">53 Off</span> */}
             <div className="image">
-              <img src="https://raw.githubusercontent.com/Alen44141/images/main/Specii/imbir.png" alt="Product" />
+              <img src="https://raw.githubusercontent.com/AMH767/image/main/oreshki/enhanc/makadam.png" alt="Product" />
             </div>
             <div className="content">
               {/* <div className="ratting">
@@ -215,19 +215,19 @@ const ProductsSpecii = () => {
                 <i className="fas fa-star" />
               </div> */}
               <h5>
-                <Link href="/product-details">Имбирь молотый</Link>
+                <Link href="/product-details">Макадамия</Link>
               </h5>
-              <span className="price">
-                {/* <del>25</del> */}
+              {/* <span className="price">
+                <del>25</del>
                 <span>450</span>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
         <div className="col-xl-3 col-lg-4 col-sm-6 item vegetables">
           <div className="product-item wow fadeInUp delay-0-2s">
             <div className="image">
-              <img src="https://raw.githubusercontent.com/Alen44141/images/main/Specii/kardamon.png" alt="Product" />
+              <img src="https://raw.githubusercontent.com/AMH767/image/main/oreshki/enhanc/brazilski.png" alt="Product" />
             </div>
             <div className="content">
               {/* <div className="ratting">
@@ -238,7 +238,7 @@ const ProductsSpecii = () => {
                 <i className="fas fa-star" />
               </div> */}
               <h5>
-                <Link href="/product-details">Кардамон молотый</Link>
+                <Link href="/product-details">Бразильский Орех</Link>
               </h5>
               <span className="price">
                 <span>45 / 100гр</span>
@@ -250,7 +250,7 @@ const ProductsSpecii = () => {
           <div className="product-item wow fadeInUp delay-0-3s">
             {/* <span className="offer">53 Off</span> */}
             <div className="image">
-              <img src="https://raw.githubusercontent.com/Alen44141/images/main/Specii/karica_moloti.png" alt="Product" />
+              <img src="https://raw.githubusercontent.com/AMH767/image/main/oreshki/enhanc/kedrovi.png" alt="Product" />
             </div>
             <div className="content">
               {/* <div className="ratting">
@@ -261,7 +261,7 @@ const ProductsSpecii = () => {
                 <i className="fas fa-star" />
               </div> */}
               <h5>
-                <Link href="/product-karica">Карица молотый</Link>
+                <Link href="/product-karica">Кедровый Орех</Link>
               </h5>
               <span className="price">
                 <span>45 / 100гр</span>
@@ -272,7 +272,7 @@ const ProductsSpecii = () => {
         <div className="col-xl-3 col-lg-4 col-sm-6 item vegetables">
           <div className="product-item wow fadeInUp delay-0-4s">
             <div className="image">
-              <img src="https://raw.githubusercontent.com/Alen44141/images/main/Specii/khmeli-suneli.png" alt="Product" />
+              <img src="https://raw.githubusercontent.com/AMH767/image/main/oreshki/enhanc/kynjyt.png" alt="Product" />
             </div>
             <div className="content">
               {/* <div className="ratting">
@@ -283,7 +283,7 @@ const ProductsSpecii = () => {
                 <i className="fas fa-star" />
               </div> */}
               <h5>
-                <Link href="/product-details">Хмели сунели</Link>
+                <Link href="/product-details">Кунжут Белый</Link>
               </h5>
               <span className="price">
                 <span>450 / кг</span>
@@ -295,7 +295,7 @@ const ProductsSpecii = () => {
           <div className="product-item wow fadeInUp delay-0-5s">
             {/* <span className="offer">20 Off</span> */}
             <div className="image">
-              <img src="https://raw.githubusercontent.com/Alen44141/images/main/Specii/kurkuma_moloti.png" alt="Product" />
+              <img src="https://raw.githubusercontent.com/AMH767/image/main/oreshki/enhanc/fistashkasol.png" alt="Product" />
             </div>
             <div className="content">
               {/* <div className="ratting">
@@ -306,19 +306,20 @@ const ProductsSpecii = () => {
                 <i className="fas fa-star" />
               </div> */}
               <h5>
-                <Link href="/product-details">Куркума молотый</Link>
+                <Link href="/product-details">Фисташка Соленный</Link>
               </h5>
-              <span className="price">
-                {/* <del>55</del> */}
+              {/* <span className="price">
+                <del>55</del>
                 <span>50 / 100гр</span>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
         <div className="col-xl-3 col-lg-4 col-sm-6 item bread vegetables">
           <div className="product-item wow fadeInUp delay-0-6s">
             <div className="image">
-              <img src="https://raw.githubusercontent.com/Alen44141/images/main/Specii/shafran.png" alt="Product" />
+            {/* <img src="https://raw.githubusercontent.com/Alen44141/images/main/Specii/shafran.png" alt="Product" /> */}
+              <img src="https://raw.githubusercontent.com/AMH767/image/main/oreshki/enhanc/fistashkasir.png" alt="Product" />
             </div>
             <div className="content">
               {/* <div className="ratting">
@@ -329,11 +330,11 @@ const ProductsSpecii = () => {
                 <i className="fas fa-star" />
               </div> */}
               <h5>
-                <Link href="/product-details">Шафран молотый</Link>
+                <Link href="/product-details">Фисташка Сирой</Link>
               </h5>
-              <span className="price">
+              {/* <span className="price">
                 <span>45 / 100гр</span>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
@@ -364,4 +365,4 @@ const ProductsSpecii = () => {
     </Fragment>
   );
 };
-export default ProductsSpecii;
+export default ProductsSoki;

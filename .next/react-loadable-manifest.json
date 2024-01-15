@@ -17,10 +17,10 @@
       "static/chunks/src_components_istotope_TrendyProducts_js.js"
     ]
   },
-  "shop-orexi.js -> ../src/components/istotope/ProductsOrexi": {
-    "id": "shop-orexi.js -> ../src/components/istotope/ProductsOrexi",
+  "shop-soki.js -> ../src/components/istotope/ProductsSoki": {
+    "id": "shop-soki.js -> ../src/components/istotope/ProductsSoki",
     "files": [
-      "static/chunks/src_components_istotope_ProductsOrexi_js.js"
+      "static/chunks/src_components_istotope_ProductsSoki_js.js"
     ]
   }
 }

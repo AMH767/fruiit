@@ -30,15 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/product-mixorex": [
+    "/shop-soki": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/product-mixorex.js"
-    ],
-    "/shop-orexi": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/shop-orexi.js"
+      "static/chunks/pages/shop-soki.js"
     ]
   },
   "ampFirstPages": []

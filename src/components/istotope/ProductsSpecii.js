@@ -101,10 +101,10 @@ const ProductsSpecii = () => {
               <h5>
                 <Link href="/product-karica">Карица</Link>
               </h5>
-              <span className="price">
-                {/* <del>25</del> */}
+              {/* <span className="price">
+                <del>25</del>
                 <span>1200 / кг</span>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
@@ -124,9 +124,9 @@ const ProductsSpecii = () => {
               <h5>
                 <Link href="/product-badyan">Бадьян</Link>
               </h5>
-              <span className="price">
+              {/* <span className="price">
                 <span>180 / 100гр</span>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
@@ -147,10 +147,10 @@ const ProductsSpecii = () => {
               <h5>
                 <Link href="/product-details">Гвоздика</Link>
               </h5>
-              <span className="price">
-                {/* <del>25</del> */}
+              {/* <span className="price">
+                <del>25</del>
                 <span>220 / 100гр</span>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
@@ -171,10 +171,10 @@ const ProductsSpecii = () => {
               <h5>
                 <Link href="/product-details">Чеснок молотый</Link>
               </h5>
-              <span className="price">
-                {/* <del>55</del> */}
+              {/* <span className="price">
+                <del>55</del>
                 <span>45 / 100гр</span>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
@@ -194,9 +194,9 @@ const ProductsSpecii = () => {
               <h5>
                 <Link href="/product-details">Мускатный орех</Link>
               </h5>
-              <span className="price">
+              {/* <span className="price">
                 <span>500 / кг</span>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
@@ -217,10 +217,10 @@ const ProductsSpecii = () => {
               <h5>
                 <Link href="/product-details">Имбирь молотый</Link>
               </h5>
-              <span className="price">
-                {/* <del>25</del> */}
+              {/* <span className="price">
+                <del>25</del>
                 <span>450</span>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
@@ -240,9 +240,9 @@ const ProductsSpecii = () => {
               <h5>
                 <Link href="/product-details">Кардамон молотый</Link>
               </h5>
-              <span className="price">
+              {/* <span className="price">
                 <span>45 / 100гр</span>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
@@ -263,9 +263,9 @@ const ProductsSpecii = () => {
               <h5>
                 <Link href="/product-karica">Карица молотый</Link>
               </h5>
-              <span className="price">
+              {/* <span className="price">
                 <span>45 / 100гр</span>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
@@ -285,9 +285,9 @@ const ProductsSpecii = () => {
               <h5>
                 <Link href="/product-details">Хмели сунели</Link>
               </h5>
-              <span className="price">
+              {/* <span className="price">
                 <span>450 / кг</span>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
@@ -308,10 +308,10 @@ const ProductsSpecii = () => {
               <h5>
                 <Link href="/product-details">Куркума молотый</Link>
               </h5>
-              <span className="price">
-                {/* <del>55</del> */}
+              {/* <span className="price">
+                <del>55</del>
                 <span>50 / 100гр</span>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
@@ -331,9 +331,9 @@ const ProductsSpecii = () => {
               <h5>
                 <Link href="/product-details">Шафран молотый</Link>
               </h5>
-              <span className="price">
+              {/* <span className="price">
                 <span>45 / 100гр</span>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
@@ -353,10 +353,10 @@ const ProductsSpecii = () => {
               <h5>
                 <Link href="/product-details">Чили молотый</Link>
               </h5>
-              <span className="price">
-                {/* <del>25</del> */}
+              {/* <span className="price">
+                <del>25</del>
                 <span>60 / 100гр</span>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>

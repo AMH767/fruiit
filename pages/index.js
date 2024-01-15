@@ -190,7 +190,7 @@ const Index3 = () => {
                   </div>
                   <div className="content">
                     <h4>
-                      <Link href="/product-details">Отдел Соков</Link>
+                      <Link href="/shop-soki">Отдел Соков</Link>
                     </h4>
                   </div>
                 </div>
@@ -298,7 +298,7 @@ const Index3 = () => {
                   <h2>Способы получения продуктов</h2>
                 </div>
                 <div className="row">
-                  <div className="col-md-6">
+                  {/* <div className="col-md-6">
                     <div className="about-feature-two">
                       <div className="icon">
                         <i className="flaticon-fruits" />
@@ -309,7 +309,7 @@ const Index3 = () => {
                         </Link>
                       </h4>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="col-md-6">
                     <div className="about-feature-two">
                       <div className="icon">
@@ -372,31 +372,10 @@ const Index3 = () => {
             {/* <span className="sub-title mb-20">Read Article Tips</span> */}
             <h2>Как сделать заказ</h2>
           </div>
+
           <div className="row">
             <div className="col-xl-4 col-md-6">
               <div className="feature-item wow fadeInUp delay-0-2s">
-                <div className="content">
-                  <div className="image">
-                    <img
-                      src="https://raw.githubusercontent.com/Alen44141/images/main/phone.png"
-                      alt="Feature"
-                    />
-                  </div>
-                  <h4>Шаг 1</h4>
-                  <p>
-                  <h6>Оставить заявку</h6>
-Для оформления заказа просто позвоните нам по номеру +7 (925) 336-69-69 или отправьте заявку.
-                  </p>
-                </div>
-                <Link href="/service-details">
-                  <a className="read-more">
-                    Заказать<i className="fas fa-angle-double-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-              <div className="feature-item color-two wow fadeInUp delay-0-4s">
                 <div className="content">
                   <div className="image">
                     <img
@@ -404,13 +383,41 @@ const Index3 = () => {
                       alt="Feature"
                     />
                   </div>
-                  <h4>Шаг 2</h4>
+                  <h4>Шаг 1</h4>
                   <p>
                   <h6>Составить список</h6>
-После получения заявки или звонка от вас, наш менеджер поможет вам сформировать заказ
+                  После получения заявки или звонка от вас, наш менеджер поможет вам сформировать заказ
                   </p>
                 </div>
-                <Link href="/service-details">
+                <Link href="https://chat.whatsapp.com/DJqB9s7p3hi8wMPeS8DJdM">
+                  <a className="read-more">
+                    Заказать<i className="fas fa-angle-double-right" />
+                  </a>
+                </Link>
+              </div>
+            </div>
+
+
+
+
+
+
+            <div className="col-xl-4 col-md-6">
+              <div className="feature-item color-two wow fadeInUp delay-0-4s">
+                <div className="content">
+                  <div className="image">
+                    <img
+                      src="https://raw.githubusercontent.com/Alen44141/images/main/phone.png"
+                      alt="Feature"
+                    />
+                  </div>
+                  <h4>Шаг 2</h4>
+                  <p>
+                  <h6>Оставить заявку</h6>
+                  Для оформления заказа просто позвоните нам по номеру +7 (925) 336-69-69 или отправьте заявку.
+                  </p>
+                </div>
+                <Link href="https://chat.whatsapp.com/DJqB9s7p3hi8wMPeS8DJdM">
                   <a className="read-more">
                     Связаться с менеджером <i className="fas fa-angle-double-right" />
                   </a>
@@ -432,7 +439,7 @@ const Index3 = () => {
                   Благодаря нашей скорости работы, вы получите выбранный товар сразу и сможете наслаждаться им.
                   </p>
                 </div>
-                <Link href="/service-details">
+                <Link href="https://chat.whatsapp.com/DJqB9s7p3hi8wMPeS8DJdM">
                   <a className="read-more">
                     Новости <i className="fas fa-angle-double-right" />
                   </a>
@@ -573,13 +580,14 @@ const Index3 = () => {
 
 
 
-<section className="shop-area-three rel z-1 py-50">
+
+{/*<section className="shop-area-three rel z-1 py-50">
         <div className="container-fluid">
           <PopularProducts />
         </div>
-      </section>
+      </section>*/}
 
-      <section className="contact-form-area rel z-1 pt-100 rpt-70 pb-130 rpb-100">
+      {/* <section className="contact-form-area rel z-1 pt-100 rpt-70 pb-130 rpb-100">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
@@ -594,7 +602,7 @@ const Index3 = () => {
               >
                 <div className="section-title contact-title mb-55">
                   {/* <span className="sub-title mb-15">Contact With Us</span> */}
-                  <h3>Отправить заказ</h3>
+                  {/* <h3>Отправить заказ</h3>
                 </div>
                 <div className="row">
                   <div className="col-md-6">
@@ -702,7 +710,7 @@ const Index3 = () => {
             alt="Leaf"
           />
         </div>
-      </section>
+      </section> */} 
 
       {/* Shop Area End */}
       {/* Client Logo Area Start */}

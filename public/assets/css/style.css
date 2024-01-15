@@ -4608,6 +4608,15 @@ h1, h2, h3, h4, h5, h6, blockquote, .tag-coulds a {
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
+
+      .product-item1 .image1 .img1 {
+        top: 30%;
+        left: 50%;
+        position: absolute;
+        display: inline-block;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); }
   .product-item h5 {
     font-size: 22px;
     margin-top: 4px;
