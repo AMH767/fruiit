@@ -16,11 +16,5 @@
     "files": [
       "static/chunks/src_components_istotope_TrendyProducts_js.js"
     ]
-  },
-  "shop-soki.js -> ../src/components/istotope/ProductsSoki": {
-    "id": "shop-soki.js -> ../src/components/istotope/ProductsSoki",
-    "files": [
-      "static/chunks/src_components_istotope_ProductsSoki_js.js"
-    ]
   }
 }

@@ -203,8 +203,8 @@ const ProductsSpecii = () => {
         <div className="col-xl-3 col-lg-4 col-sm-6 item bread seafish vegetables">
           <div className="product-item wow fadeInUp delay-0-7s">
             {/* <span className="offer">53 Off</span> */}
-            <div className="image">
-              <img src="https://raw.githubusercontent.com/AMH767/image/main/oreshki/enhanc/makadam.png" alt="Product" />
+            <div className="image1">
+              <img src="https://raw.githubusercontent.com/AMH767/image/main/sokiremov/malinadobr.png" alt="Product" />
             </div>
             <div className="content">
               {/* <div className="ratting">
@@ -215,7 +215,7 @@ const ProductsSpecii = () => {
                 <i className="fas fa-star" />
               </div> */}
               <h5>
-                <Link href="/product-details">Макадамия</Link>
+                <Link href="/product-details">Малина</Link>
               </h5>
               {/* <span className="price">
                 <del>25</del>

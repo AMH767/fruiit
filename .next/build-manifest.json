@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/shop-soki": [
+    "/blog-details": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/shop-soki.js"
+      "static/chunks/pages/blog-details.js"
     ]
   },
   "ampFirstPages": []

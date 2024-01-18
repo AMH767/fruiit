@@ -180,7 +180,16 @@ const Index3 = () => {
                   </div>
                 </div>
               </div> */}
-                            <div className="col-xl-3 col-lg-4 col-sm-6">
+
+
+
+
+              {/* ОТДЕЛ СОКОВ */}
+
+
+
+
+                            {/* <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-category-item wow fadeInUp delay-0-2s">
                   <div className="image">
                     <img
@@ -194,7 +203,10 @@ const Index3 = () => {
                     </h4>
                   </div>
                 </div>
-              </div>
+              </div> */}
+
+
+
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-category-item wow fadeInUp delay-0-3s">
                   <div className="image">
@@ -225,7 +237,13 @@ const Index3 = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-3 col-lg-4 col-sm-6">
+
+
+              {/* МЯСНОЙ ОТДЕЛ */}
+
+
+
+              {/* <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-category-item wow fadeInUp delay-0-5s">
                   <div className="image">
                     <img
@@ -239,7 +257,18 @@ const Index3 = () => {
                     </h4>
                   </div>
                 </div>
-              </div>
+              </div> */}
+
+
+
+
+
+
+
+{/* Рыбный Отдел */}
+
+
+{/* 
               <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-category-item wow fadeInUp delay-0-6s">
                   <div className="image">
@@ -254,8 +283,16 @@ const Index3 = () => {
                     </h4>
                   </div>
                 </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-sm-6">
+              </div> */}
+
+
+{/* Молочный Отдел */}
+
+
+
+
+
+              {/* <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-category-item wow fadeInUp delay-0-6s">
                   <div className="image">
                     <img
@@ -269,8 +306,16 @@ const Index3 = () => {
                     </h4>
                   </div>
                 </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-sm-6">
+              </div> */}
+
+
+
+{/* Солени Отдел */}
+
+
+
+
+              {/* <div className="col-xl-3 col-lg-4 col-sm-6">
                 <div className="product-category-item wow fadeInUp delay-0-7s">
                   <div className="image">
                     <img
@@ -284,7 +329,7 @@ const Index3 = () => {
                     </h4>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -325,8 +370,8 @@ const Index3 = () => {
                 </div>
                 <p>
 
-                У вас есть два удобных способа получить заказ с продуктами: доставка, когда товары привезут прямо к вам домой, или самовывоз, когда вы можете забрать их самостоятельно из указанного места. Вне зависимости от выбранного варианта, мы гарантируем быструю и надежную обработку вашего заказа.
-                  Вы можете выбрать доставку, если вам удобнее, чтобы все было привезено прямо к вашему дверному проему. Или же выбрать самовывоз, если вам интереснее забрать свои продукты самостоятельно. В любом случае, мы готовы подстроиться под ваши предпочтения и обеспечить удобный и беззаботный процесс получения вашего заказа.
+                Если вы желаете сделать заказ, у нас есть несколько удобных способов связи. Вы можете написать свой заказ в нашей группе, отправить личное сообщение или позвонить
+                 по указанному номеру телефона. Мы сделаем все возможное, чтобы помочь вам с вашим заказом и предоставить качественное обслуживание.
 						{" "}
                 </p>
                 <div className="about-btn-number pt-5">
@@ -386,7 +431,8 @@ const Index3 = () => {
                   <h4>Шаг 1</h4>
                   <p>
                   <h6>Составить список</h6>
-                  После получения заявки или звонка от вас, наш менеджер поможет вам сформировать заказ
+                  {/* После получения заявки или звонка от вас, наш менеджер поможет вам сформировать заказ */}
+                  Переходите в нашу группу в ватсаппе и подпишитесь 
                   </p>
                 </div>
                 <Link href="https://chat.whatsapp.com/DJqB9s7p3hi8wMPeS8DJdM">
@@ -414,7 +460,8 @@ const Index3 = () => {
                   <h4>Шаг 2</h4>
                   <p>
                   <h6>Оставить заявку</h6>
-                  Для оформления заказа просто позвоните нам по номеру +7 (925) 336-69-69 или отправьте заявку.
+                  {/* Для оформления заказа просто позвоните нам по номеру +7 (925) 336-69-69 или отправьте заявку. */}
+                  Составьте Список продуктов и отправьте нам в группу или в личние сообщения
                   </p>
                 </div>
                 <Link href="https://chat.whatsapp.com/DJqB9s7p3hi8wMPeS8DJdM">
@@ -436,7 +483,8 @@ const Index3 = () => {
                   <h4>Шаг 3</h4>
                   <p>
                   <h6>Ждать доставку</h6>
-                  Благодаря нашей скорости работы, вы получите выбранный товар сразу и сможете наслаждаться им.
+                  {/* Благодаря нашей скорости работы, вы получите выбранный товар сразу и сможете наслаждаться им. */}
+                  Ожидайте пока ваш заказ будет готовиться, мы с вами свяжемся когда ваш заказ будет готов
                   </p>
                 </div>
                 <Link href="https://chat.whatsapp.com/DJqB9s7p3hi8wMPeS8DJdM">
@@ -462,21 +510,21 @@ const Index3 = () => {
             <div className="col-xl-4 col-md-6">
               <div className="news-item wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="https://mir-cdn.behance.net/v1/rendition/project_modules/max_1200/628329158545767.638defc99feed.jpg" alt="News" />
+                  <img src="https://raw.githubusercontent.com/AMH767/image/main/news/zucchiolo_p97029.jpg" alt="News" />
                   <span className="date">
-                    <b>31</b> Дек
+                    <b>23</b> Авг
                   </span>
                 </div>
                 <div className="content">
-                  <span className="sub-title">Vegetable</span>
+                  {/* <span className="sub-title">Vegetable</span> */}
                   <h4>
                     <Link href="/blog-details">
-                      Unicode UTF8 Character Sets They Sltimate Guide Systems
+                    На рынок Испании вывели новый вид овоща - Цуккиоло
                     </Link>
                   </h4>
                   <Link href="/blog-details">
                     <a className="read-more">
-                      Read More <i className="fas fa-angle-double-right" />
+                      Читать Дальше <i className="fas fa-angle-double-right" />
                     </a>
                   </Link>
                 </div>
@@ -491,7 +539,7 @@ const Index3 = () => {
                   </span>
                 </div>
                 <div className="content">
-                  <span className="sub-title">Vegetable</span>
+                  {/* <span className="sub-title">Vegetable</span> */}
                   <h4>
                     <Link href="/blog-details">
                       Unicode UTF8 Character Sets They Sltimate Guide Systems
