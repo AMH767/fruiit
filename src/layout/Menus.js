@@ -121,7 +121,7 @@ export const Shop = () => (
 export const Contact = () => (
   <Fragment>
     <li>
-      <Link href="/contact">Contact</Link>
+      <Link href="/contact">Контакты</Link>
     </li>
   </Fragment>
 );

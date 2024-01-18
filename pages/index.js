@@ -533,21 +533,21 @@ const Index3 = () => {
             <div className="col-xl-4 col-md-6">
               <div className="news-item wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="https://mir-cdn.behance.net/v1/rendition/project_modules/max_1200/628329158545767.638defc99feed.jpg" alt="News" />
+                  <img src="https://fruitnews.ru/images/jch-optimize/ng/images_2022_11___62688__p50349.webp" alt="News" />
                   <span className="date">
-                    <b>31</b> Дек
+                    <b>16</b> Ноя
                   </span>
                 </div>
                 <div className="content">
                   {/* <span className="sub-title">Vegetable</span> */}
                   <h4>
-                    <Link href="/blog-details">
-                      Unicode UTF8 Character Sets They Sltimate Guide Systems
+                    <Link href="/blog-potat">
+                    НИИП создал новый сорт картофеля с высоким содержанием цинка и железа
                     </Link>
                   </h4>
-                  <Link href="/blog-details">
+                  <Link href="/blog-potat">
                     <a className="read-more">
-                      Read More <i className="fas fa-angle-double-right" />
+                      Читать Дальше <i className="fas fa-angle-double-right" />
                     </a>
                   </Link>
                 </div>
@@ -556,21 +556,21 @@ const Index3 = () => {
             <div className="col-xl-4 col-md-6">
               <div className="news-item wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="https://mir-cdn.behance.net/v1/rendition/project_modules/max_1200/628329158545767.638defc99feed.jpg" alt="News" />
+                  <img src="https://fruitnews.ru/images/2023/08/_65274_p53646.jpg" alt="News" />
                   <span className="date">
-                    <b>31</b> Дек
+                    <b>14</b> Авг
                   </span>
                 </div>
                 <div className="content">
-                  <span className="sub-title">Vegetable</span>
+                  {/* <span className="sub-title">Vegetable</span> */}
                   <h4>
-                    <Link href="/blog-details">
-                      Unicode UTF8 Character Sets They Sltimate Guide Systems
+                    <Link href="/blog-temp">
+                    Метеорологи ожидают рекордного роста мировой температуры в 2023-2027 гг.
                     </Link>
                   </h4>
-                  <Link href="/blog-details">
+                  <Link href="/blog-temp">
                     <a className="read-more">
-                      Read More <i className="fas fa-angle-double-right" />
+                    Читать Дальше <i className="fas fa-angle-double-right" />
                     </a>
                   </Link>
                 </div>

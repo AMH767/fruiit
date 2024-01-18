@@ -27,16 +27,16 @@ export const HomeSlider1 = () => {
 </h6>
 {/* Магазин, предлагающий богатый ассортимент фруктов, овощей, специй, орехов и многих других продуктов, рад приветствовать вас! На нашем сайте вы сможете ознакомиться с нашими продуктами, а также быть в курсе новостей и акций, которые часто проводятся у нас. */}
                 <div className="slider-btns mt-30">
-                  <Link href="/shop-grid">
+                  <Link href="https://chat.whatsapp.com/LurBKNzROHV4roHEXiWtHF">
                     <a className="theme-btn style-two">
                       Заказать <i className="fas fa-angle-double-right" />
                     </a>
                   </Link>
-                  <Link href="/about">
+                  {/* <Link href="/about">
                     <a className="theme-btn style-two">
-                      Подробнее <i className="fas fa-angle-double-right" />
+                      акции <i className="fas fa-angle-double-right" />
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -60,7 +60,7 @@ export const HomeSlider1 = () => {
           />
           <img
             className="half-leaf"
-            src="https://raw.githubusercontent.com/Alen44141/images/main/list/listL.png"
+            src="https://raw.githubusercontent.com/AMH767/image/main/stickers/photo_10_2024-01-18_23-15-09.jpg"
             alt="Leaf"
           />
           <img
@@ -98,16 +98,16 @@ export const HomeSlider1 = () => {
                 <h6>Добро пожаловать в наш магазин с огромным выбором продуктов! На нашем сайте вы сможете ознакомиться с нашими продуктами, а также быть в курсе новостей и акций, которые часто проводятся у нас.
 </h6>
                 <div className="slider-btns mt-30">
-                  <Link href="/shop-grid">
+                  <Link href="https://chat.whatsapp.com/LurBKNzROHV4roHEXiWtHF">
                     <a className="theme-btn style-two">
                       Заказать <i className="fas fa-angle-double-right" />
                     </a>
                   </Link>
-                  <Link href="/about">
+                  {/* <Link href="/about">
                     <a className="theme-btn style-two">
-                      Подробнее <i className="fas fa-angle-double-right" />
+                      Акции <i className="fas fa-angle-double-right" />
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

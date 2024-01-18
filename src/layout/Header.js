@@ -44,30 +44,30 @@ const SearchBtn = () => {
 const DaskTopMenu = () => (
   <ul className="navigation clearfix d-none d-lg-flex">
     <li>
-      <a href="#">Home</a>
+      <a href="/">Домой</a>
       <ul>
         <Home />
       </ul>
     </li>
     <li className="dropdown">
-      <a href="#">pages</a>
-      <ul>
+      <a href="/blog-news">Новости</a>
+      {/* <ul>
         <PagesDasktop />
-      </ul>
-      <div className="dropdown-btn">
+      </ul> */}
+      {/* <div className="dropdown-btn">
         <span className="fas fa-chevron-down" />
-      </div>
+      </div> */}
     </li>
     <li className="dropdown">
-      <a href="#">portfolio</a>
-      <ul>
+      <a href="/blog-accii">Акции</a>
+      {/* <ul>
         <Portfolio />
-      </ul>
-      <div className="dropdown-btn">
+      </ul> */}
+      {/* <div className="dropdown-btn">
         <span className="fas fa-chevron-down" />
-      </div>
+      </div> */}
     </li>
-    <li className="dropdown">
+    {/* <li className="dropdown">
       <a href="#">blog</a>
       <ul>
         <Blog />
@@ -84,7 +84,7 @@ const DaskTopMenu = () => (
       <div className="dropdown-btn">
         <span className="fas fa-chevron-down" />
       </div>
-    </li>
+    </li> */}
     <Contact />
   </ul>
 );
@@ -152,7 +152,17 @@ const DefaultHeader = () => (
           {/* Main Menu End*/}
         </div>
         {/* Menu Button */}
-        <div class="col-xl-5 col-lg-6"><div class="top-right text-lg-right"><ul><li><i class="far fa-phone"></i> <b>Call :</b> <a href="callto:+7 (925) 336‑69‑69">+7 (925) 336‑69‑69</a></li><li><div class="social-style-one"><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-youtube"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div></li></ul></div></div>
+        <div class="col-xl-5 col-lg-6">
+          <div class="top-right text-lg-right">
+            <ul>
+              <li>
+                <i class="far fa-phone">
+                  </i> <b>Call :</b> 
+                  <a href="callto:+7 (925) 336‑69‑69">+7 (925) 336‑69‑69</a>
+                  </li>
+                  <li>
+                    <div class="social-style-one">
+<a href="#"><i class="fab fa-whatsapp"></i></a></div></li></ul></div></div>
       </div>
     </div>
   </div>
@@ -245,7 +255,7 @@ const Header1 = () => (
                   </li>
                   <li>
                     <div className="social-style-one">
-                      <a href="#">
+                      {/* <a href="#">
                         <i className="fab fa-facebook-f" />
                       </a>
                       <a href="#">
@@ -253,9 +263,9 @@ const Header1 = () => (
                       </a>
                       <a href="#">
                         <i className="fab fa-youtube" />
-                      </a>
+                      </a> */}
                       <a href="#">
-                        <i className="fab fa-instagram" />
+                        <i className="fab fa-whatsapp" />
                       </a>
                     </div>
                   </li>
@@ -347,16 +357,7 @@ const Header2 = () => (
                   <li>
                     <div className="social-style-one">
                       <a href="#">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-youtube" />
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-instagram" />
+                        <i className="fab fa-whatsapp" />
                       </a>
                     </div>
                   </li>
@@ -483,7 +484,7 @@ const Header3 = () => (
             {/* Main Menu End*/}
           </div>
           {/* Menu Button */}
-          <div class="col-xl-5 col-lg-6"><div class="top-right text-lg-right"><ul><li><i class="far fa-phone"></i> <b>Call :</b> <a href="callto:+7 (925) 336‑69‑69">+7 (925) 336‑69‑69</a></li><li><div class="social-style-one"><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-youtube"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div></li></ul></div></div>
+          <div class="col-xl-5 col-lg-6"><div class="top-right text-lg-right"><ul><li><i class="far fa-phone"></i> <b>Call :</b> <a href="callto:+7 (925) 336‑69‑69">+7 (925) 336‑69‑69</a></li><li><div class="social-style-one"><a href="https://chat.whatsapp.com/DJqB9s7p3hi8wMPeS8DJdM"><i class="fab fa-whatsapp"></i></a></div></li></ul></div></div>
         </div>
       </div>
     </div>

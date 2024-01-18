@@ -23,7 +23,7 @@ export const ShopSpecii = () => {
       <section className="related-product rel z-1 pt-125 rpt-95 pb-130 rpb-100">
         <div className="container">
           <div className="section-title text-center mb-60">
-            <h3>Орехи</h3>
+            <h3>Специи </h3>
           </div>
           <Slider {...productActiveTwo} className="product-active-two">
             <div className="product-item wow fadeInUp delay-0-2s">
