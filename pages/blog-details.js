@@ -6,7 +6,7 @@ import { newsSlider } from "../src/sliderProps";
 const BlogDetails = () => {
   return (
     <Layout>
-      <PageBanner pageName={"Blog Details"} />
+      <PageBanner pageName={"Цуккиоло"} />
       <section className="news-details-page rel z-1 pt-65 rpt-35 pb-130 rpb-100">
         <div className="container">
           <div className="row">

@@ -430,14 +430,14 @@ const Index3 = () => {
                   </div>
                   <h4>Шаг 1</h4>
                   <p>
-                  <h6>Составить список</h6>
+                  <h6>Составьте Список</h6>
                   {/* После получения заявки или звонка от вас, наш менеджер поможет вам сформировать заказ */}
-                  Переходите в нашу группу в ватсаппе и подпишитесь 
+                  Составьте Список продуктов и отправьте нам в группу или в личние сообщения
                   </p>
                 </div>
                 <Link href="https://chat.whatsapp.com/DJqB9s7p3hi8wMPeS8DJdM">
                   <a className="read-more">
-                    Заказать<i className="fas fa-angle-double-right" />
+                    Перейти<i className="fas fa-angle-double-right" />
                   </a>
                 </Link>
               </div>
@@ -459,14 +459,14 @@ const Index3 = () => {
                   </div>
                   <h4>Шаг 2</h4>
                   <p>
-                  <h6>Оставить заявку</h6>
+                  <h6>Переходите в группу</h6>
                   {/* Для оформления заказа просто позвоните нам по номеру +7 (925) 336-69-69 или отправьте заявку. */}
-                  Составьте Список продуктов и отправьте нам в группу или в личние сообщения
+                       Переходите в нашу группу в ватсаппе и подпишитесь
                   </p>
                 </div>
                 <Link href="https://chat.whatsapp.com/DJqB9s7p3hi8wMPeS8DJdM">
                   <a className="read-more">
-                    Связаться с менеджером <i className="fas fa-angle-double-right" />
+                    Перейти <i className="fas fa-angle-double-right" />
                   </a>
                 </Link>
               </div>
@@ -487,7 +487,7 @@ const Index3 = () => {
                   Ожидайте пока ваш заказ будет готовиться, мы с вами свяжемся когда ваш заказ будет готов
                   </p>
                 </div>
-                <Link href="https://chat.whatsapp.com/DJqB9s7p3hi8wMPeS8DJdM">
+                <Link href="/blog-news">
                   <a className="read-more">
                     Новости <i className="fas fa-angle-double-right" />
                   </a>

@@ -289,11 +289,14 @@ input[type=checkbox], input[type=radio] {
     max-width: 100%; } }
 
 /** Section Title style **/
+.textacc {
+  color:#53a713;
+}
 .sub-title {
   font-size: 30px;
   display: inline-block;
-  color: #ff7800;
-  font-family: "Shadows Into Light", cursive;
+  color: #dbeb00;
+  /* font-family: "Shadows Into Light", cursive; */
   text-transform: capitalize; }
   @media only screen and (max-width: 575px) {
     .sub-title {

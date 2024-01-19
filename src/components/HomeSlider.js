@@ -55,22 +55,22 @@ export const HomeSlider1 = () => {
         <div className="slide-shapes">
           <img
             className="two-leaf"
-            src="https://raw.githubusercontent.com/Alen44141/images/main/list/listR.png"
+            src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/photo_1_2024-01-18_23-15-09.png"
             alt="Leaf"
           />
           <img
             className="half-leaf"
-            src="https://raw.githubusercontent.com/AMH767/image/main/stickers/photo_10_2024-01-18_23-15-09.jpg"
+            src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/photo_10_2024-01-18_23-15-09.png"
             alt="Leaf"
           />
           <img
             className="leaf-one"
-            src="https://raw.githubusercontent.com/Alen44141/images/main/list/listR.png"
+            src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/photo_2_2024-01-18_23-15-09.png"
             alt="Leaf"
           />
           <img
             className="leaf-two"
-            src="https://raw.githubusercontent.com/Alen44141/images/main/list/listL.png"
+            src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/photo_3_2024-01-18_23-15-09.png"
             alt="Leaf"
           />
         </div>
@@ -116,22 +116,22 @@ export const HomeSlider1 = () => {
         <div className="slide-shapes">
           <img
             className="two-leaf"
-            src="https://raw.githubusercontent.com/Alen44141/images/main/list/listR.png"
+            src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/photo_4_2024-01-18_23-15-09.png"
             alt="Leaf"
           />
           <img
             className="half-leaf"
-            src="https://raw.githubusercontent.com/Alen44141/images/main/list/listL.png"
+            src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/photo_5_2024-01-18_23-15-09.png"
             alt="Leaf"
           />
-          <img
+          {/* <img
             className="leaf-one"
-            src="https://raw.githubusercontent.com/Alen44141/images/main/list/listR.png"
+            src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/photo_6_2024-01-18_23-15-09.png"
             alt="Leaf"
-          />
+          /> */}
           <img
             className="leaf-two"
-            src="https://raw.githubusercontent.com/Alen44141/images/main/list/listL.png"
+            src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/photo_7_2024-01-18_23-15-09.png"
             alt="Leaf"
           />
         </div>

@@ -52,7 +52,7 @@ const ProductsSoki = () => {
             >
               Все
             </li>
-            <li
+            {/* <li
               data-filter=".vegetables"
               className={`c-pointer ${activeBtn("vegetables")}`}
               onClick={handleFilterKeyChange("vegetables")}
@@ -65,7 +65,9 @@ const ProductsSoki = () => {
               onClick={handleFilterKeyChange("fruits")}
             >
               Сухофрукты
-            </li>
+            </li> */}
+
+            
             {/* <li
               data-filter=".bread"
               className={`c-pointer ${activeBtn("bread")}`}
@@ -338,29 +340,29 @@ const ProductsSoki = () => {
             </div>
           </div>
         </div>
-        <div className="col-xl-3 col-lg-4 col-sm-6 item vegetables">
+        {/* <div className="col-xl-3 col-lg-4 col-sm-6 item vegetables">
           <div className="product-item wow fadeInUp delay-0-7s">
             <div className="image">
               <img src="https://raw.githubusercontent.com/Alen44141/images/main/Specii/chilli.png" alt="Product" />
             </div>
             <div className="content">
-              {/* <div className="ratting">
+              <div className="ratting">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
-              </div> */}
+              </div>
               <h5>
                 <Link href="/product-details">Чили молотый</Link>
               </h5>
               <span className="price">
-                {/* <del>25</del> */}
+                <del>25</del>
                 <span>60 / 100гр</span>
               </span>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </Fragment>
   );

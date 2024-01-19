@@ -5,11 +5,77 @@ import Layout from "../src/layout/Layout";
 const BlogGrid = () => {
   return (
     <Layout>
-      <PageBanner pageName={"Новости"} />
+      <PageBanner pageName={"Акции"} />
       <section className="news-page-section rel z-1 py-130 rpy-100">
         <div className="container">
           <div className="row justify-content-center blog-grid">
+          <section className="offer-banners-area">
+        <div className="container-fluid">
+          <div className="row">
             <div className="col-xl-4 col-md-6">
+              <div
+                className="offer-banner-item wow fadeInUp delay-0-2s"
+                style={{
+                  backgroundImage:
+                    "url(https://www.meme-arsenal.com/memes/502faf513f1474f393416515a07a8969.jpg)",
+                }}
+              >
+                <div className="content mb-0">
+                  <span className="sub-title">40% скидка</span>
+                  <h4 className="textacc">Lays с луком</h4>
+                  {/* <p>Best Foods For Your Family</p> */}
+                  {/* <Link href="/shop-grid">
+                    <a className="theme-btn style-two">
+                      Shop Now <i className="fas fa-angle-double-right" />
+                    </a>
+                  </Link> */}
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6">
+            <div
+                className="offer-banner-item wow fadeInUp delay-0-2s"
+                style={{
+                  backgroundImage:
+                    "url(https://www.meme-arsenal.com/memes/502faf513f1474f393416515a07a8969.jpg)",
+                }}
+              >
+                <div className="content mb-0">
+                  <span className="sub-title">40% скидка</span>
+                  <h4 className="textacc">Lays с луком</h4>
+                  {/* <p>Best Foods For Your Family</p> */}
+                  {/* <Link href="/shop-grid">
+                    <a className="theme-btn style-two">
+                      Shop Now <i className="fas fa-angle-double-right" />
+                    </a>
+                  </Link> */}
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6">
+            <div
+                className="offer-banner-item wow fadeInUp delay-0-2s"
+                style={{
+                  backgroundImage:
+                    "url(https://www.meme-arsenal.com/memes/502faf513f1474f393416515a07a8969.jpg)",
+                }}
+              >
+                <div className="content mb-0">
+                  <span className="sub-title">40% скидка</span>
+                  <h4 className="textacc">Lays с луком</h4>
+                  {/* <p>Best Foods For Your Family</p> */}
+                  {/* <Link href="/shop-grid">
+                    <a className="theme-btn style-two">
+                      Shop Now <i className="fas fa-angle-double-right" />
+                    </a>
+                  </Link> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+            {/* <div className="col-xl-4 col-md-6">
               <div className="news-item wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="https://raw.githubusercontent.com/AMH767/image/main/news/zucchiolo_p97029.jpg" alt="News" />
@@ -18,7 +84,7 @@ const BlogGrid = () => {
                   </span>
                 </div>
                 <div className="content">
-                  {/* <span className="sub-title">Vegetable</span> */}
+                  <span className="sub-title">Vegetable</span>
                   <h4>
                     <Link href="/blog-details">
                     На рынок Испании вывели новый вид овоща - Цуккиоло
@@ -31,8 +97,8 @@ const BlogGrid = () => {
                   </Link>
                 </div>
               </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
+            </div> */}
+            {/* <div className="col-xl-4 col-md-6">
               <div className="news-item wow fadeInUp delay-0-4s">
                 <div className="image">
                   <img src="https://fruitnews.ru/images/jch-optimize/ng/images_2022_11___62688__p50349.webp" alt="News" />
@@ -41,7 +107,7 @@ const BlogGrid = () => {
                   </span>
                 </div>
                 <div className="content">
-                  {/* <span className="sub-title">Farming</span> */}
+                  <span className="sub-title">Farming</span>
                   <h4>
                     <Link href="/blog-potat">
                     НИИП создал новый сорт картофеля с высоким содержанием цинка и железа
@@ -54,8 +120,8 @@ const BlogGrid = () => {
                   </Link>
                 </div>
               </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
+            </div> */}
+            {/* <div className="col-xl-4 col-md-6">
               <div className="news-item wow fadeInUp delay-0-6s">
                 <div className="image">
                   <img src="https://fruitnews.ru/images/2023/08/_65274_p53646.jpg" alt="News" />
@@ -77,7 +143,7 @@ const BlogGrid = () => {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/* <div className="col-xl-4 col-md-6">
               <div className="news-item wow fadeInUp delay-0-2s">
                 <div className="image">
