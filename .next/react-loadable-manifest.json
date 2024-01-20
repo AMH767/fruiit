@@ -16,11 +16,5 @@
     "files": [
       "static/chunks/src_components_istotope_TrendyProducts_js.js"
     ]
-  },
-  "shop-orexi.js -> ../src/components/istotope/ProductsOrexi": {
-    "id": "shop-orexi.js -> ../src/components/istotope/ProductsOrexi",
-    "files": [
-      "static/chunks/src_components_istotope_ProductsOrexi_js.js"
-    ]
   }
 }

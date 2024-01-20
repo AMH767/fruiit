@@ -66,19 +66,19 @@ const DefaultFooter = () => (
       </div> */}
       <div className="col-lg-4 col-md-6 order-md-1">
         <div className="footer-widget menu-widget two-column">
-          <h4 className="footer-title">Quick Links</h4>
+          <h4 className="footer-title">Продуктовый</h4>
           <ul>
             <li>
               <Link href="/about">
-                <a>About Us</a>
+                <a>О нас</a>
               </Link>
             </li>
             <li>
-              <Link href="/contact">Documentation</Link>
+              <Link href="/contact">Кантакты</Link>
             </li>
             <li>
               <Link href="/services">
-                <a>Services</a>
+                <a>Сообщества</a>
               </Link>
             </li>
             <li>
@@ -387,15 +387,15 @@ const Footer3 = () => (
         </div> */}
         <div className="col-lg-4 col-md-6 order-md-1">
           <div className="footer-widget menu-widget two-column">
-            <h4 className="footer-title">Quick Links</h4>
+            <h4 className="footer-title">Данные о сайте</h4>
             <ul>
               <li>
-                <Link href="/about">
-                  <a>About Us</a>
+                <Link href="/contact">
+                  <a>О нас</a>
                 </Link>
               </li>
               <li>
-                <Link href="/contact">Documentation</Link>
+                <Link href="/contact">Наши контакты</Link>
               </li>
               <li>
                 <Link href="/services">
@@ -447,28 +447,18 @@ const Footer3 = () => (
         <div className="col-lg-4 col-md-6 order-md-2">
           <div className="footer-widget contact-widget">
             <h4 className="footer-title">Contact Us</h4>
-            <p>
-              Quis autem vel eum reprehenderit voluptate velit esse quamnue{" "}
-            </p>
             <ul>
               <li>
-                <i className="fal fa-map-marker-alt" />
-                53 Main Street, 2nd Mountain 3rd Floor, New York
-              </li>
-              <li>
-                <i className="far fa-envelope" />
-                <a href="calto:+012(345)67899">+012 (345) 678 99</a>
-              </li>
-              <li>
                 <i className="far fa-phone" />
-                <a href="mailto:support@gmail.com">support@gmail.com</a>
+                <a href="callto:+7 (925) 336‑69‑69">+7 (925) 336‑69‑69</a>
+
               </li>
             </ul>
           </div>
         </div>
       </div>
       <div className="copyright-area pt-25 pb-10">
-        <p>Сайт находиться на второй стадии разработки</p>
+        <p>Сайт еще находиться на стадии разработки</p>
         <ul className="footer-menu">
           <li>
             <Link href="/contact">Связь с поддержкой</Link>
@@ -478,9 +468,9 @@ const Footer3 = () => (
               <a>Вопросы</a>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="/contact">Оплата</Link>
-          </li>
+          </li> */}
         </ul>
         {/* Scroll Top Button */}
         <ScrollTopBtn />

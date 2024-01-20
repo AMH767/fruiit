@@ -44,7 +44,8 @@ export const HomeSlider1 = () => {
               <div className="slider-images">
                 <img
                   className="image"
-                  src="https://raw.githubusercontent.com/Alen44141/images/main/remove%20back/bigremoveimage/2.png"
+                  // src="https://raw.githubusercontent.com/Alen44141/images/main/remove%20back/bigremoveimage/2.png"
+                  src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/granat.png"
                   alt="Slider"
                 />
 
@@ -63,11 +64,11 @@ export const HomeSlider1 = () => {
             src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/photo_10_2024-01-18_23-15-09.png"
             alt="Leaf"
           />
-          <img
+          {/* <img
             className="leaf-one"
             src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/photo_2_2024-01-18_23-15-09.png"
             alt="Leaf"
-          />
+          /> */}
           <img
             className="leaf-two"
             src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/photo_3_2024-01-18_23-15-09.png"
@@ -86,7 +87,8 @@ export const HomeSlider1 = () => {
               <div className="slider-images">
                 <img
                   className="image"
-                  src="https://raw.githubusercontent.com/Alen44141/images/main/remove%20back/bigremoveimage/3.png"
+                  // src="https://raw.githubusercontent.com/Alen44141/images/main/remove%20back/bigremoveimage/3.png"
+                  src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/mandarin.png"
                   alt="Slider"
                 />
 

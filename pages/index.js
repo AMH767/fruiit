@@ -217,7 +217,7 @@ const Index3 = () => {
                   </div>
                   <div className="content">
                     <h4>
-                      <Link href="/shop-specii">Чаи и Пряности </Link>
+                      <Link href="/shop-specii">Специи </Link>
                     </h4>
                   </div>
                 </div>

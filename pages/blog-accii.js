@@ -8,70 +8,47 @@ const BlogGrid = () => {
       <PageBanner pageName={"Акции"} />
       <section className="news-page-section rel z-1 py-130 rpy-100">
         <div className="container">
-          <div className="row justify-content-center blog-grid">
+          <div className="justify-content-center blog-grid">
           <section className="offer-banners-area">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-xl-4 col-md-6">
-              <div
-                className="offer-banner-item wow fadeInUp delay-0-2s"
-                style={{
-                  backgroundImage:
-                    "url(https://www.meme-arsenal.com/memes/502faf513f1474f393416515a07a8969.jpg)",
-                }}
-              >
-                <div className="content mb-0">
-                  <span className="sub-title">40% скидка</span>
-                  <h4 className="textacc">Lays с луком</h4>
-                  {/* <p>Best Foods For Your Family</p> */}
-                  {/* <Link href="/shop-grid">
-                    <a className="theme-btn style-two">
-                      Shop Now <i className="fas fa-angle-double-right" />
-                    </a>
-                  </Link> */}
+          <div className="col-xl-3 col-lg-4 col-sm-6">
+            
+                <div className="product-category-item wow fadeInUp delay-0-3s product-item wow  ">
+              <span className="offer bg-red">Акция</span>
+                  
+                  <div className="image1">
+                    <img
+                      src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/46548567.png"
+                      alt="Product"
+                    />
+                  </div>
+                  <div className="content">
+                    <h4>
+                      <Link href="#">100₽ - 140гр</Link>
+                    </h4>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-            <div
-                className="offer-banner-item wow fadeInUp delay-0-2s"
-                style={{
-                  backgroundImage:
-                    "url(https://www.meme-arsenal.com/memes/502faf513f1474f393416515a07a8969.jpg)",
-                }}
-              >
-                <div className="content mb-0">
-                  <span className="sub-title">40% скидка</span>
-                  <h4 className="textacc">Lays с луком</h4>
-                  {/* <p>Best Foods For Your Family</p> */}
-                  {/* <Link href="/shop-grid">
-                    <a className="theme-btn style-two">
-                      Shop Now <i className="fas fa-angle-double-right" />
-                    </a>
-                  </Link> */}
+              <div className="col-xl-3 col-lg-4 col-sm-6">
+                <div className="product-category-item wow fadeInUp delay-0-4s product-item wow">
+              <span className="offer bg-red">Акция</span>
+
+                  <div className="image1">
+                    <img
+                      src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/46548567.png"
+                      alt="Product"
+                    />
+                  </div>
+                  <div className="content">
+                    <h4>
+                      <Link href="#">100₽ - 140гр</Link>
+                    </h4>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-            <div
-                className="offer-banner-item wow fadeInUp delay-0-2s"
-                style={{
-                  backgroundImage:
-                    "url(https://www.meme-arsenal.com/memes/502faf513f1474f393416515a07a8969.jpg)",
-                }}
-              >
-                <div className="content mb-0">
-                  <span className="sub-title">40% скидка</span>
-                  <h4 className="textacc">Lays с луком</h4>
-                  {/* <p>Best Foods For Your Family</p> */}
-                  {/* <Link href="/shop-grid">
-                    <a className="theme-btn style-two">
-                      Shop Now <i className="fas fa-angle-double-right" />
-                    </a>
-                  </Link> */}
-                </div>
-              </div>
-            </div>
+              
+
           </div>
         </div>
       </section>
@@ -293,22 +270,22 @@ const BlogGrid = () => {
         <div className="news-shapes">
           <img
             className="two-leaf"
-            src="assets/images/slider/two-lear.png"
+            src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/avocado/photo_5_2024-01-20_17-45-42.png"
             alt="Leaf"
           />
           <img
             className="leaf-left"
-            src="assets/images/shapes/leaf-three.png"
+            src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/avocado/photo_3_2024-01-20_17-45-42.png"
             alt="Leaf"
           />
           <img
             className="leaf-two"
-            src="assets/images/shapes/leaf-three.png"
+            src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/avocado/photo_4_2024-01-20_17-45-42.png"
             alt="Leaf"
           />
           <img
             className="leaf-three"
-            src="assets/images/shapes/leaf-1.png"
+            src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/avocado/photo_2_2024-01-20_17-45-42.png"
             alt="Leaf"
           />
         </div>

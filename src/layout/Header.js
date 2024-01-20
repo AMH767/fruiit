@@ -162,7 +162,7 @@ const DefaultHeader = () => (
                   </li>
                   <li>
                     <div class="social-style-one">
-<a href="#"><i class="fab fa-whatsapp"></i></a></div></li></ul></div></div>
+<a href="https://chat.whatsapp.com/DJqB9s7p3hi8wMPeS8DJdM"><i class="fab fa-whatsapp"></i></a></div></li></ul></div></div>
       </div>
     </div>
   </div>
@@ -264,7 +264,7 @@ const Header1 = () => (
                       <a href="#">
                         <i className="fab fa-youtube" />
                       </a> */}
-                      <a href="#">
+                      <a href="https://chat.whatsapp.com/DJqB9s7p3hi8wMPeS8DJdM">
                         <i className="fab fa-whatsapp" />
                       </a>
                     </div>
@@ -356,7 +356,7 @@ const Header2 = () => (
                   </li>
                   <li>
                     <div className="social-style-one">
-                      <a href="#">
+                      <a href="https://chat.whatsapp.com/DJqB9s7p3hi8wMPeS8DJdM">
                         <i className="fab fa-whatsapp" />
                       </a>
                     </div>
