@@ -258,7 +258,7 @@ input[type=checkbox], input[type=radio] {
   margin: 0 auto;
   overflow: hidden;
   min-width: 300px;
-  background: #FFFFFF; }
+  background: #f6ffef; }
 
 @media only screen and (min-width: 1200px) {
   .container {
@@ -734,7 +734,7 @@ a.theme-btn {
   background-color: #76a713; }
 
 .bg-lighter {
-  background-color: #f3f3f3; }
+  background-color: #f6ffef; }
 
 .color-secondary {
   color: #76a713; }
@@ -766,7 +766,7 @@ a.theme-btn {
 
 /* Home Three */
 .home-three .bg-lighter {
-  background: #f9f6ef; }
+  background: #f6ffef; }
 
 .home-three .theme-btn {
   color: #1a2428;
@@ -4903,7 +4903,7 @@ h1, h2, h3, h4, h5, h6, blockquote, .tag-coulds a {
   padding: 40px 15px;
   margin-bottom: 30px;
   border-radius: 12px;
-  background: #f9f6ef;
+  background: #ecffc6;
   border: 1px solid white; }
   .product-category-item .image {
     width: 90%;
