@@ -158,7 +158,7 @@ const DefaultHeader = () => (
               <li>
                 <i class="far fa-phone">
                   </i> <b>Call :</b> 
-                  <a href="callto:+7 (925) 336‑69‑69">+7 (925) 336‑69‑69</a>
+                  <a href="tel:+7 (925) 336‑69‑69">+7 (925) 336‑69‑69</a>
                   </li>
                   <li>
                     <div class="social-style-one">
@@ -251,7 +251,7 @@ const Header1 = () => (
                 <ul>
                   <li>
                     <i className="far fa-phone" /> <b>Call :</b>{" "}
-                    <a href="callto:+7 (925) 336‑69‑69">+7 (925) 336‑69‑69</a>
+                    <a href="tel:+7 (925) 336‑69‑69">+7 (925) 336‑69‑69</a>
                   </li>
                   <li>
                     <div className="social-style-one">
@@ -352,7 +352,7 @@ const Header2 = () => (
                 <ul>
                   <li>
                     <i className="far fa-phone" /> <b>Call :</b>{" "}
-                    <a href="callto:+7 (925) 336‑69‑69">+7 (925) 336‑69‑69</a>
+                    <a href="tel:+7 (925) 336‑69‑69">+7 (925) 336‑69‑69</a>
                   </li>
                   <li>
                     <div className="social-style-one">
@@ -484,10 +484,10 @@ const Header3 = () => (
             {/* Main Menu End*/}
           </div>
           {/* Menu Button */}
-          <div class="col-xl-5 col-lg-6"><div class="top-right text-lg-right"><ul><li><i class="far fa-phone"></i> <b>Call :</b> <a href="callto:+7 (925) 336‑69‑69">+7 (925) 336‑69‑69</a></li><li><div class="social-style-one"><a href="https://chat.whatsapp.com/DJqB9s7p3hi8wMPeS8DJdM"><i class="fab fa-whatsapp"></i></a></div></li></ul></div></div>
+          <div class="col-xl-5 col-lg-6"><div class="top-right text-lg-right"><ul><li><i class="far fa-phone"></i> <b>Call :</b> <a href="tel:+7 (925) 336‑69‑69">+7 (925) 336‑69‑69</a></li><li><div class="social-style-one"><a href="https://chat.whatsapp.com/DJqB9s7p3hi8wMPeS8DJdM"><i class="fab fa-whatsapp"></i></a></div></li></ul></div></div>
         </div>
       </div>
-    </div>
+    </div> 
     {/*End Header Upper*/}
   </header>
 );
