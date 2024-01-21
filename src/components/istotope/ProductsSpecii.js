@@ -40,7 +40,7 @@ const ProductsSpecii = () => {
         <div className="col-lg-6 wow fadeInUp delay-0-2s">
           <div className="section-title mb-20">
             <span className="sub-title mb-20"></span>
-            <h2>Чаи и Пряности</h2>
+            <h2>Специи</h2>
           </div>
         </div>
         <div className="col-lg-6 text-lg-right wow fadeInUp delay-0-4s">

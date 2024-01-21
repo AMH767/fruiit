@@ -227,22 +227,22 @@ const BlogGrid = () => {
         <div className="news-shapes">
           <img
             className="two-leaf"
-            src="assets/images/slider/two-lear.png"
+            src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/avocado/photo_5_2024-01-20_17-45-42.png"
             alt="Leaf"
           />
           <img
             className="leaf-left"
-            src="assets/images/shapes/leaf-three.png"
+            src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/avocado/photo_3_2024-01-20_17-45-42.png"
             alt="Leaf"
           />
           <img
             className="leaf-two"
-            src="assets/images/shapes/leaf-three.png"
+            src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/avocado/photo_4_2024-01-20_17-45-42.png"
             alt="Leaf"
           />
           <img
             className="leaf-three"
-            src="assets/images/shapes/leaf-1.png"
+            src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/avocado/photo_2_2024-01-20_17-45-42.png"
             alt="Leaf"
           />
         </div>

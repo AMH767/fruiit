@@ -403,51 +403,55 @@ const BlogDetails = () => {
                   <ul>
                     <li>
                       <div className="image">
+                        <a href="/blog-potat">
                         <img
-                          src="assets/images/news/news-widget3.jpg"
+                          src="https://fruitnews.ru/images/jch-optimize/ng/images_2022_11___62688__p50349.webp"
                           alt="News"
-                        />
+                        /></a>
                       </div>
                       <div className="content">
                         <h6>
-                          <Link href="/blog-details">
-                            Design And Buildsc Newsletter Mind
+                          <Link href="/blog-potat">
+                            Картошка фиолетовая
                           </Link>
                         </h6>
-                        <span className="name">By Westfield</span>
+                        <span className="name">16 ноября 2022</span>
                       </div>
                     </li>
                     <li>
                       <div className="image">
-                        <img
-                          src="assets/images/news/news-widget1.jpg"
-                          alt="News"
-                        />
+                      
+                      <a href="/blog-temp">
+  <img
+    src="https://fruitnews.ru/images/2023/08/_65274_p53646.jpg"
+    alt="News"
+  />
+</a>
                       </div>
                       <div className="content">
                         <h6>
-                          <Link href="/blog-details">
-                            Universal Principles User Experience
+                          <Link href="/blog-temp">
+                            Рост температуры
                           </Link>
                         </h6>
-                        <span className="name">By Braswell</span>
+                        <span className="name">14 августа 2023</span>
                       </div>
                     </li>
                     <li>
-                      <div className="image">
+                      {/* <div className="image">
                         <img
                           src="assets/images/news/news-widget2.jpg"
                           alt="News"
                         />
-                      </div>
-                      <div className="content">
+                      </div> */}
+                      {/* <div className="content">
                         <h6>
                           <Link href="/blog-details">
                             Roll Out New Featuc Without Hurting
                           </Link>
                         </h6>
                         <span className="name">By Mendonca</span>
-                      </div>
+                      </div> */}
                     </li>
                   </ul>
                 </div>

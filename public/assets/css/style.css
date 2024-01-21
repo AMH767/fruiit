@@ -2505,7 +2505,7 @@ h1, h2, h3, h4, h5, h6, blockquote, .tag-coulds a {
   animation-delay: 1.9s; }
 
 /* Menu Sticky */
-@-webkit-keyframes sticky {
+/* @-webkit-keyframes sticky {
   0% {
     top: -100px; }
   100% {
@@ -2515,7 +2515,7 @@ h1, h2, h3, h4, h5, h6, blockquote, .tag-coulds a {
   0% {
     top: -100px; }
   100% {
-    top: 0; } }
+    top: 0; } } */
 
 /* Hero Circle */
 @-webkit-keyframes rotated_circle {
@@ -2832,15 +2832,32 @@ h1, h2, h3, h4, h5, h6, blockquote, .tag-coulds a {
     position: relative; }
   .main-header.menu-absolute .header-upper {
     position: absolute; }
-  .main-header.fixed-header .header-upper {
+  .main-header .header-upper {
     top: 0;
     left: 0;
     position: fixed;
-    background: white;
+    background: #f3faed;
     -webkit-animation: sticky  1s;
     animation: sticky  1s;
     -webkit-box-shadow: 0px 0px 30px 0px rgba(87, 95, 245, 0.1);
     box-shadow: 0px 0px 30px 0px rgba(87, 95, 245, 0.1); }
+    .fixed-header {
+      top: 0;
+      left: 0;
+      position: fixed;
+      background: #f6ffef;
+      animation: sticky 1s ease-in-out;
+      box-shadow: 0px 0px 30px 0px rgba(87, 95, 245, 0.1);
+    }
+    
+    @keyframes sticky {
+      0% {
+        transform: translateY(-100%);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
 
 @media only screen and (max-width: 991px) {
   .header-top-wrap {
@@ -3902,15 +3919,28 @@ h1, h2, h3, h4, h5, h6, blockquote, .tag-coulds a {
     opacity: 0.2;
     background-color: #1a242800; }
 
-.banner-inner {
-  position: relative;
-  padding: 40px 85px;
-  max-width: -webkit-max-content;
-  max-width: -moz-max-content;
-  max-width: max-content;
-  margin-left: auto;
-  margin-right: auto;
-  background: #76a713; }
+    .banner-inner {
+      position: relative;
+      padding: 38px 33px;
+      margin: 0 auto;
+      max-width: max-content;
+      background: #76a713;
+      opacity: 0;
+      transform: translateY(-20px);
+      animation: fadeIn 0.5s ease-in-out forwards;
+      }
+      
+      @keyframes fadeIn {
+      0% {
+      opacity: 0;
+      transform: translateY(-20px);
+      }
+      100% {
+      opacity: 1;
+      transform: translateY(0);
+      }
+      }
+
   @media only screen and (max-width: 575px) {
     .banner-inner {
       padding: 25px 55px; } }
@@ -5796,11 +5826,36 @@ h1, h2, h3, h4, h5, h6, blockquote, .tag-coulds a {
   right: 3%;
   top: 100px; }
 
-.news-page-section .leaf-left {
+.news-page-section .leaf-left{
   left: 0;
   bottom: 130px;
   -webkit-animation: down-up-one 10s infinite;
   animation: down-up-one 10s infinite; }
+
+
+
+
+  .leaf-left1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    animation: move-in-place 10s infinite;
+  }
+  
+  @keyframes move-in-place {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+
+
 
 .news-page-section .litchi {
   right: 3%;

@@ -42,7 +42,7 @@ export const ShopSpecii = () => {
                   <Link href="/product-badyan">Бадьян</Link>
                 </h5>
                 <span className="price">
-                  <span>180 / 100гр</span>
+                  {/* <span>180 / 100гр</span> */}
                 </span>
               </div>
             </div>
@@ -58,7 +58,7 @@ export const ShopSpecii = () => {
                 </h5>
                 <span className="price">
                   {/* <del>25</del> */}
-                  <span>500 / кг</span>
+                  {/* <span>500 / кг</span> */}
                 </span>
               </div>
             </div>
@@ -73,7 +73,7 @@ export const ShopSpecii = () => {
                 </h5>
                 <span className="price">
                   {/* <del>55</del> */}
-                  <span>450</span>
+                  {/* <span>450</span> */}
                 </span>
               </div>
             </div>
@@ -88,7 +88,7 @@ export const ShopSpecii = () => {
                   <Link href="/product-details">Карица молотый</Link>
                 </h5>
                 <span className="price">
-                  <span>45 / 100гр</span>
+                  {/* <span>45 / 100гр</span> */}
                 </span>
               </div>
             </div>
@@ -102,7 +102,7 @@ export const ShopSpecii = () => {
                 </h5>
                 <span className="price">
                   {/* <del>55</del> */}
-                  <span>45 / 100гр</span>
+                  {/* <span>45 / 100гр</span> */}
                 </span>
               </div>
             </div>

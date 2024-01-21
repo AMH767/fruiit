@@ -375,7 +375,7 @@ const Index3 = () => {
 						{" "}
                 </p>
                 <div className="about-btn-number pt-5">
-                  <Link href="/about">
+                  <Link href="https://chat.whatsapp.com/DJqB9s7p3hi8wMPeS8DJdM">
                     <a className="theme-btn style-two">
                       Watsapp <i className="fas fa-angle-double-right" />
                     </a>
@@ -580,28 +580,23 @@ const Index3 = () => {
         </div>
         <div className="news-shapes">
           <img
-            className="onion"
-            src="https://raw.githubusercontent.com/Alen44141/images/main/list/listR.png"
-            alt="Onion"
-          />
-          <img
             className="two-leaf"
-            src="https://raw.githubusercontent.com/Alen44141/images/main/list/listL.png"
+            src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/avocado/photo_5_2024-01-20_17-45-42.png"
             alt="Leaf"
           />
           <img
-            className="half-leaf"
-            src="https://raw.githubusercontent.com/Alen44141/images/main/list/listR.png"
+            className="leaf-left"
+            src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/avocado/photo_3_2024-01-20_17-45-42.png"
             alt="Leaf"
           />
           <img
             className="leaf-two"
-            src="https://raw.githubusercontent.com/Alen44141/images/main/list/listL.png"
+            src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/avocado/photo_4_2024-01-20_17-45-42.png"
             alt="Leaf"
           />
           <img
             className="leaf-three"
-            src="https://raw.githubusercontent.com/Alen44141/images/main/list/listR.png"
+            src="https://raw.githubusercontent.com/AMH767/image/main/stickers/stickrem/avocado/photo_2_2024-01-20_17-45-42.png"
             alt="Leaf"
           />
         </div>

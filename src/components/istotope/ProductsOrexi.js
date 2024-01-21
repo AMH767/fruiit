@@ -242,9 +242,9 @@ const ProductsSoki = () => {
               <h5>
                 <Link href="/product-details">Бразильский Орех</Link>
               </h5>
-              <span className="price">
+              {/* <span className="price">
                 <span>45 / 100гр</span>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
@@ -265,9 +265,9 @@ const ProductsSoki = () => {
               <h5>
                 <Link href="/product-karica">Кедровый Орех</Link>
               </h5>
-              <span className="price">
+              {/* <span className="price">
                 <span>45 / 100гр</span>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
@@ -287,9 +287,9 @@ const ProductsSoki = () => {
               <h5>
                 <Link href="/product-details">Кунжут Белый</Link>
               </h5>
-              <span className="price">
+              {/* <span className="price">
                 <span>450 / кг</span>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
